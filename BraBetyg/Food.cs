@@ -7,11 +7,11 @@ namespace BraBetyg
        
        public Dictionary<string,bool> burgers = new Dictionary<string, bool>();
        
-        public string name; 
+        public string name {get; set;} 
 
-        public int calories; 
+        public int calories {get; set;} 
 
-        public bool inStock; 
+        public bool inStock {get; set;} 
 
 
         public void BurgersAll()
