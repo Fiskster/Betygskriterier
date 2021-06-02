@@ -18,6 +18,7 @@ namespace BraBetyg
         {
             CheeseBurger cheese = new CheeseBurger();
             Burger burger = new Burger();
+            cheese.inStock = burger.inStock ; 
             burgers.Add(cheese.name,cheese.inStock);
             burgers.Add(burger.name, burger.inStock);
             Console.WriteLine("cheeseburger in stock: " + burgers[cheese.name]);
